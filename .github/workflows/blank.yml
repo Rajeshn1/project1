@@ -27,7 +27,7 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project
-          - name: java version
+          
       # Runs a set of commands to check versions
       - name: java version
         run: java -version
