@@ -34,9 +34,9 @@ jobs:
       - name: maven -version
         run: mvn -version
       - name: python version
-        run: python -version
+        run: python --version
       - name: docker version
         run: docker -v
       - name: terraform version
-        run: terrafor --version
+        run: terraform --version
         
